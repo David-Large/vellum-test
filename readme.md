@@ -2,7 +2,8 @@
 ---
 Vellum is a documentation template built with a simple philosophy: creating beautiful, easy-to-read documentation should be an intuitive and enjoyable process for everyone, from developers to non-technical writers. It leverages the power of Markdown, the simplicity of 11ty, and the visual editing of CloudCannon to create a site that is fast, flexible, and fully customizable.
 
-This template works with our without CloudCannon. CloudCannon is recommended if you or your users are non developers. 
+Using CloudCannon with this template is optional, but recommended if you or your users are non developers. 
+
 ## Key Features
 - **Markdown is all you need:** Write content and even complex components using familiar Markdown syntax.
 - **Visually edit with CloudCannon:** Non-technical users can build pages visually using Bookshop components.
@@ -34,11 +35,11 @@ This template works with our without CloudCannon. CloudCannon is recommended if 
     - Internal linking via file paths (InputPath to Url 11ty plugin)
 
 ## Quick Start
-Navigate to the Site data file, labeled `Vellum` in the CloudCannon UI. Update the information there to match your organization or personal project.
+In the CloudCannon UI, navigate to the Site data file, labeled `Vellum`. Update the information there to match your organization or personal project.
 
-In the Doc Collections file configure your collections, this is the organizational category that each page created can be associated with. 
+In the Doc Collections file, configure your collections. This is the organizational category that each page created can be associated with. 
 
-Optionally set a site wide banner or update the light and dark theme colors to match your brand.
+Optionally set a site-wide banner or update the light and dark theme colors to match your brand.
 
 In depth guides can be found here [https://www.vellumdocs.dev/](https://www.vellumdocs.dev/)
 
@@ -49,4 +50,4 @@ In depth guides can be found here [https://www.vellumdocs.dev/](https://www.vell
 
 The output folder is `dist`.
 
-This templates can be extended by creating new bookshop components or adding Markdown-it plugins.. `npm run start` 
+This templates can be extended by creating new Bookshop components or adding Markdown-it plugins.. `npm run start` 
